@@ -3,9 +3,9 @@ from fastapi.responses import HTMLResponse
 from http import HTTPStatus
 from fast_zero.schemas import (
     Message, 
-    UserSchema, 
+    UserDB,
     UserPublic,
-    UserDB
+    UserSchema, 
   )
 
 app = FastAPI()
